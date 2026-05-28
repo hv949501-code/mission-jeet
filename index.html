@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harshavardhan V | AIM IIT - Hyderabad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#000000" />
+  </head>
+  <body>
+    <!-- Ambient Animated Background -->
+    <div class="ambient-bg">
+      <div class="ambient-blob blob-1"></div>
+      <div class="ambient-blob blob-2"></div>
+      <div class="ambient-blob blob-3"></div>
+    </div>
+
+    <header class="app-header">
+      <a class="brand animate-up delay-1" href="#home" aria-label="Harshavardhan V home">
+        <span class="brand-icon">HV</span>
+        <span>
+          <strong>Harshavardhan V</strong>
+        </span>
+      </a>
+
+      <nav class="top-nav animate-up delay-2" aria-label="Primary navigation">
+        <a href="drona.html">DRONA-JEE</a>
+        <a href="aarambh.html">Aarambh</a>
+        <a href="abhay.html">Abhay</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <!-- ── Hero ── -->
+      <section class="hero">
+        <span class="pill animate-up delay-1">Google Drive Library</span>
+        <h1 class="animate-up delay-2">Learn without <br><span class="text-gradient">the clutter.</span></h1>
+        <p class="animate-up delay-3">
+          All your batches, subjects, notes, DPPs, and solutions —
+          accessed from one fast, beautifully designed dashboard.
+        </p>
+        <div class="hero-actions animate-up delay-4">
+          <a class="btn btn-primary" href="drona.html">Start Studying</a>
+          <a class="btn btn-ghost" href="#batches">Explore Batches</a>
+        </div>
+      </section>
+
+      <!-- ── Quick Strip / Bento ── -->
+      <section class="section" aria-label="Platform features">
+        <div class="bento-grid">
+          <div class="bento-item col-4 animate-up delay-1">
+            <div class="bento-icon">📚</div>
+            <h3>Study Material</h3>
+            <p>Direct access to Notes, DPPs, and modules straight from Drive.</p>
+          </div>
+          <div class="bento-item col-4 animate-up delay-2">
+            <div class="bento-icon">▶️</div>
+            <h3>Lectures</h3>
+            <p>Open high-quality video folders securely in the cloud.</p>
+          </div>
+          <div class="bento-item col-4 animate-up delay-3">
+            <div class="bento-icon">🎯</div>
+            <h3>Practice</h3>
+            <p>Dedicated folders for daily practice and worksheets.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Batches ── -->
+      <section class="section" id="batches">
+        <div class="section-title left animate-up delay-1">
+          <h2>Your Batches</h2>
+          <p>Every batch features highly curated Drive folders.</p>
+        </div>
+        
+        <div class="bento-grid">
+          <a class="bento-item col-12 batch-card featured animate-up delay-2" href="drona.html">
+            <div>
+              <small>JEE Preparation</small>
+              <strong>DRONA-JEE</strong>
+              <span class="subjects">Physics · Chemistry · Maths · Planners</span>
+            </div>
+          </a>
+          <a class="bento-item col-6 batch-card animate-up delay-3" href="aarambh.html">
+            <div>
+              <small>Class 10th</small>
+              <strong>Aarambh</strong>
+              <span class="subjects">Maths · Science · Social · IT</span>
+            </div>
+          </a>
+          <a class="bento-item col-6 batch-card animate-up delay-4" href="abhay.html">
+            <div>
+              <small>Class 10th</small>
+              <strong>Abhay</strong>
+              <span class="subjects">English · IT · Maths · Science · Social</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- ── Sync Footer ── -->
+      <footer class="sync-bar">
+        <p><span class="live-dot"></span> Live Sync — Direct connection to Google Drive</p>
+      </footer>
+    </main>
+
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+      <a href="#home" class="nav-active">Home</a>
+      <a href="drona.html">Drona</a>
+      <a href="aarambh.html">Aarambh</a>
+      <a href="abhay.html">Abhay</a>
+    </nav>
+
+    <script src="sync.js" defer></script>
+  </body>
+</html>

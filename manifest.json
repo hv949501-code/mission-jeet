@@ -1,0 +1,18 @@
+{
+  "name": "Harshavardhan V - Study Library",
+  "short_name": "Study HV",
+  "description": "Premium Google Drive library dashboard for JEE and Class 10th batches.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
